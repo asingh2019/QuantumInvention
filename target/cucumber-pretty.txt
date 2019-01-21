@@ -1,0 +1,44 @@
+Feature: Verify All Live Traffic Camera In Location Wise
+
+  @Sanity
+  Scenario: Verify the Total Location Of Singapore Having Live Cameras  # Camera.feature:4
+    Given Launch Browser And Application                                # TestHomepage.launch_Browser_And_Application()
+    When Navigate To Cameras Tab                                        # TestCamera.navigate_To_Cameras_Tab()
+    Then Veriy That 62 location of Singapore Having Live Traffic Camera # TestCamera.veriy_That_location_of_Singapore_Having_Live_Traffic_Camera(int)
+
+  @Sanity
+  Scenario: Verify All the Location name of singapore having Live Cameras # Camera.feature:10
+    Then Verify All the Location name of singapore having Live Cameras    # TestCamera.verify_All_the_Location_name_of_singapore_having_Live_Cameras()
+
+  @Sanity
+  Scenario: Verify the Total Location Of Malaysia Having Live Traffic Cameras # Camera.feature:14
+    Then Veriy That 25 location of Malaysia Having Live Traffic Camera        # TestCamera.veriy_That_location_of_Malaysia_Having_Live_Traffic_Camera(int)
+    Then Close all browser                                                    # TestHomepage.close_all_browser()
+Feature: Verify All Homepage Basic Funcitonalities
+
+  @Sanity
+  Scenario: Verify Applicaion Title      # Homepage.feature:4
+    Given Launch Browser And Application # TestHomepage.launch_Browser_And_Application()
+    When User In Homepage                # TestHomepage.user_In_Homepage()
+    Then Validate Application Title      # TestHomepage.validate_Application_Title()
+
+  @Sanity
+  Scenario: Verify Applicaion Logo                      # Homepage.feature:10
+    Then Verify that Application Name Should Be Display # TestHomepage.verify_that_Application_Name_Should_Be_Display()
+    Then Close all browser                              # TestHomepage.close_all_browser()
+Feature: Verify all the Toll Gate Location Wise
+
+  @Sanity
+  Scenario: Verify the Total Location Of Singapore Having Toll Gate # Tolls.feature:4
+    Given Launch Browser And Application                            # TestHomepage.launch_Browser_And_Application()
+    When Navigate To Tolls Tab                                      # TestTolls.navigate_To_Tolls_Tab()
+    Then Veriy That 77 location of Singapore Having Toll Gate       # TestTolls.veriy_That_location_of_Singapore_Having_Toll_Gate(int)
+
+  @Sanity
+  Scenario: Verify All the Location name of singapore having Toll Gate # Tolls.feature:10
+    Then Verify All the Location name of singapore having Toll Gate    # TestTolls.verify_All_the_Location_name_of_singapore_having_Toll_Gate()
+
+  @Sanity
+  Scenario: Verify the Total Location Of Malaysia Having Live Traffic Cameras # Tolls.feature:14
+    Then Veriy That 25 location of Malaysia Having Live Traffic Camera        # TestCamera.veriy_That_location_of_Malaysia_Having_Live_Traffic_Camera(int)
+    Then Close all browser                                                    # TestHomepage.close_all_browser()
