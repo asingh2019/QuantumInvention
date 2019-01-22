@@ -45,5 +45,57 @@ public class TestHomepage extends baseclass {
     public void verify_that_Application_Name_Should_Be_Display() throws Throwable {
       Assert.assertTrue(homepage.isLogoDisplayed(true));
     }
+    @Then("^Verify that \"([^\"]*)\" link display in homepage$")
+    public void verify_that_link_display_in_homepage(String SignInLink) throws Throwable {
+       Assert.assertEquals(homepage.VerifySigninLink(),SignInLink);
+    }
+
+
+    @Then("^User click on Sign in link$")
+    public void user_click_on_Sign_in_link() throws Throwable {
+        homepage.ClickOnSignInlink();
+    }
+
+    @Then("^Sign in page should Open$")
+    public void sign_in_page_should_Open() throws Throwable {
+        homepage.VerifySigninPage();
+    }
+
+    @Then("^User click on Register  link$")
+    public void user_click_on_Register_link() throws Throwable {
+    }
+
+    @Then("^Register  page should Open$")
+    public void register_page_should_Open() throws Throwable {
+    }
+
+    @Then("^User click on Mobile App link$")
+    public void user_click_on_Mobile_App_link() throws Throwable {
+    }
+
+    @Then("^Mobile App page should Open$")
+    public void mobile_App_page_should_Open() throws Throwable {
+    }
+
+    @Then("^User click on Galactio link$")
+    public void user_click_on_Galactio_link() throws Throwable {
+    }
+   
+   @Then("^Galactio page should Open$")
+    public void galactio_page_should_Open() throws Throwable {
+    }
+
+    @Then("^User click on SG GPS Navigation link$")
+    public void user_click_on_SG_GPS_Navigation_link() throws Throwable {
+    }
+
+    @Then("^SG GPS Navigation page should Open$")
+    public void sg_GPS_Navigation_page_should_Open() throws Throwable {
+    	
+    }
+
+}
+
+    
 
 }
