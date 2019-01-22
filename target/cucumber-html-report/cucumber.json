@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12458397667,
+              "duration": 12417867183,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 518108173,
+              "duration": 521759822,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 29894311,
+              "duration": 27870191,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14105616011,
+              "duration": 13761129734,
               "status": "passed"
             },
             "line": 11,
@@ -98,7 +98,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1328282,
+              "duration": 1288022,
               "status": "passed"
             },
             "line": 15,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 652982145,
+              "duration": 606228474,
               "status": "passed"
             },
             "line": 16,
@@ -154,7 +154,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12704252155,
+              "duration": 11380296717,
               "status": "passed"
             },
             "line": 5,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 467141616,
+              "duration": 394141377,
               "status": "passed"
             },
             "line": 6,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 7260935,
+              "duration": 5306819,
               "status": "passed"
             },
             "line": 7,
@@ -206,7 +206,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34799131,
+              "duration": 32755482,
               "status": "passed"
             },
             "line": 11,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 663587972,
+              "duration": 599088019,
               "status": "passed"
             },
             "line": 12,
@@ -232,6 +232,88 @@
         "tags": [
           {
             "line": 9,
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify that Given Link should be display in homepage",
+        "description": "",
+        "id": "verify-all-homepage-basic-funcitonalities;verify-that-given-link-should-be-display-in-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12054071992,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Launch Browser And Application",
+            "match": {
+              "location": "TestHomepage.launch_Browser_And_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123529043,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify that Sign in,Register,Mobile App,Galactio,SG GPS Navigation link should be available",
+            "match": {
+              "location": "TestHomepage.verify_that_Sign_in_Register_Mobile_App_Galactio_SG_GPS_Navigation_link_should_be_available()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1517272025,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Sign in link",
+            "match": {
+              "location": "TestHomepage.user_click_on_Sign_in_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39982466,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "\"Sign In\" page should Open",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign In",
+                  "offset": 1
+                }
+              ],
+              "location": "TestHomepage.page_should_Open(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 619444297,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close all browser",
+            "match": {
+              "location": "TestHomepage.close_all_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
             "name": "@Sanity"
           }
         ]
@@ -256,7 +338,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12245487341,
+              "duration": 11563743875,
               "status": "passed"
             },
             "line": 5,
@@ -268,7 +350,7 @@
           },
           {
             "result": {
-              "duration": 533738398,
+              "duration": 474897089,
               "status": "passed"
             },
             "line": 6,
@@ -280,7 +362,7 @@
           },
           {
             "result": {
-              "duration": 22516502,
+              "duration": 20095489,
               "status": "passed"
             },
             "line": 7,
@@ -314,7 +396,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20685420653,
+              "duration": 18578383822,
               "status": "passed"
             },
             "line": 11,
@@ -342,7 +424,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1420820,
+              "duration": 1124278,
               "status": "passed"
             },
             "line": 15,
@@ -360,7 +442,7 @@
           },
           {
             "result": {
-              "duration": 636391987,
+              "duration": 598952217,
               "status": "passed"
             },
             "line": 16,

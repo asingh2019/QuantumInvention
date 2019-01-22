@@ -20,8 +20,8 @@ import java.io.File;
         tags = {"@Sanity"},
         monochrome = true,
         // dryRun = true,
-        //features="D:\\QuantumInvention\\Mapsynq\\src\\test\\resources\\Features")
-        features="src\\test\\resources\\Features")
+        features="D:\\Quantum Invention\\Mapsynq\\src\\test\\resources\\Features")
+       //features="src\\test\\resources\\Features")
 
 public class runner {
     @AfterClass

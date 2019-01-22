@@ -39,14 +39,14 @@ formatter.match({
   "location": "TestHomepage.launch_Browser_And_Application()"
 });
 formatter.result({
-  "duration": 12458397667,
+  "duration": 12417867183,
   "status": "passed"
 });
 formatter.match({
   "location": "TestCamera.navigate_To_Cameras_Tab()"
 });
 formatter.result({
-  "duration": 518108173,
+  "duration": 521759822,
   "status": "passed"
 });
 formatter.match({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "TestCamera.veriy_That_location_of_Singapore_Having_Live_Traffic_Camera(int)"
 });
 formatter.result({
-  "duration": 29894311,
+  "duration": 27870191,
   "status": "passed"
 });
 formatter.scenario({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "TestCamera.verify_All_the_Location_name_of_singapore_having_Live_Cameras()"
 });
 formatter.result({
-  "duration": 14105616011,
+  "duration": 13761129734,
   "status": "passed"
 });
 formatter.scenario({
@@ -122,14 +122,14 @@ formatter.match({
   "location": "TestCamera.veriy_That_location_of_Malaysia_Having_Live_Traffic_Camera(int)"
 });
 formatter.result({
-  "duration": 1328282,
+  "duration": 1288022,
   "status": "passed"
 });
 formatter.match({
   "location": "TestHomepage.close_all_browser()"
 });
 formatter.result({
-  "duration": 652982145,
+  "duration": 606228474,
   "status": "passed"
 });
 formatter.uri("Homepage.feature");
@@ -173,21 +173,21 @@ formatter.match({
   "location": "TestHomepage.launch_Browser_And_Application()"
 });
 formatter.result({
-  "duration": 12704252155,
+  "duration": 11380296717,
   "status": "passed"
 });
 formatter.match({
   "location": "TestHomepage.user_In_Homepage()"
 });
 formatter.result({
-  "duration": 467141616,
+  "duration": 394141377,
   "status": "passed"
 });
 formatter.match({
   "location": "TestHomepage.validate_Application_Title()"
 });
 formatter.result({
-  "duration": 7260935,
+  "duration": 5306819,
   "status": "passed"
 });
 formatter.scenario({
@@ -218,14 +218,94 @@ formatter.match({
   "location": "TestHomepage.verify_that_Application_Name_Should_Be_Display()"
 });
 formatter.result({
-  "duration": 34799131,
+  "duration": 32755482,
   "status": "passed"
 });
 formatter.match({
   "location": "TestHomepage.close_all_browser()"
 });
 formatter.result({
-  "duration": 663587972,
+  "duration": 599088019,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Verify that Given Link should be display in homepage",
+  "description": "",
+  "id": "verify-all-homepage-basic-funcitonalities;verify-that-given-link-should-be-display-in-homepage",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 14,
+      "name": "@Sanity"
+    }
+  ]
+});
+formatter.step({
+  "line": 16,
+  "name": "Launch Browser And Application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 17,
+  "name": "Verify that Sign in,Register,Mobile App,Galactio,SG GPS Navigation link should be available",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
+  "name": "User click on Sign in link",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 19,
+  "name": "\"Sign In\" page should Open",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 20,
+  "name": "Close all browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "TestHomepage.launch_Browser_And_Application()"
+});
+formatter.result({
+  "duration": 12054071992,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TestHomepage.verify_that_Sign_in_Register_Mobile_App_Galactio_SG_GPS_Navigation_link_should_be_available()"
+});
+formatter.result({
+  "duration": 123529043,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TestHomepage.user_click_on_Sign_in_link()"
+});
+formatter.result({
+  "duration": 1517272025,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Sign In",
+      "offset": 1
+    }
+  ],
+  "location": "TestHomepage.page_should_Open(String)"
+});
+formatter.result({
+  "duration": 39982466,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TestHomepage.close_all_browser()"
+});
+formatter.result({
+  "duration": 619444297,
   "status": "passed"
 });
 formatter.uri("Tolls.feature");
@@ -269,14 +349,14 @@ formatter.match({
   "location": "TestHomepage.launch_Browser_And_Application()"
 });
 formatter.result({
-  "duration": 12245487341,
+  "duration": 11563743875,
   "status": "passed"
 });
 formatter.match({
   "location": "TestTolls.navigate_To_Tolls_Tab()"
 });
 formatter.result({
-  "duration": 533738398,
+  "duration": 474897089,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +369,7 @@ formatter.match({
   "location": "TestTolls.veriy_That_location_of_Singapore_Having_Toll_Gate(int)"
 });
 formatter.result({
-  "duration": 22516502,
+  "duration": 20095489,
   "status": "passed"
 });
 formatter.scenario({
@@ -315,7 +395,7 @@ formatter.match({
   "location": "TestTolls.verify_All_the_Location_name_of_singapore_having_Toll_Gate()"
 });
 formatter.result({
-  "duration": 20685420653,
+  "duration": 18578383822,
   "status": "passed"
 });
 formatter.scenario({
@@ -352,14 +432,14 @@ formatter.match({
   "location": "TestCamera.veriy_That_location_of_Malaysia_Having_Live_Traffic_Camera(int)"
 });
 formatter.result({
-  "duration": 1420820,
+  "duration": 1124278,
   "status": "passed"
 });
 formatter.match({
   "location": "TestHomepage.close_all_browser()"
 });
 formatter.result({
-  "duration": 636391987,
+  "duration": 598952217,
   "status": "passed"
 });
 });

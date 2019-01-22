@@ -8,12 +8,13 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 public class JavaScriptHelper {
     private WebDriver driver;
 
     private Logger log = LoggerHelper.getLogger(JavaScriptHelper.class);
 
-    public JavaScriptHelper(WebDriver driver){
+    public JavaScriptHelper(WebDriver driver,WebElement element){
         this.driver = driver;
         log.info("JavaScriptHelper has been initialised");
     }

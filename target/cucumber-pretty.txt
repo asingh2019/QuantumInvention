@@ -26,6 +26,14 @@ Feature: Verify All Homepage Basic Funcitonalities
   Scenario: Verify Applicaion Logo                      # Homepage.feature:10
     Then Verify that Application Name Should Be Display # TestHomepage.verify_that_Application_Name_Should_Be_Display()
     Then Close all browser                              # TestHomepage.close_all_browser()
+
+  @Sanity
+  Scenario: Verify that Given Link should be display in homepage                                     # Homepage.feature:15
+    Given Launch Browser And Application                                                             # TestHomepage.launch_Browser_And_Application()
+    Then Verify that Sign in,Register,Mobile App,Galactio,SG GPS Navigation link should be available # TestHomepage.verify_that_Sign_in_Register_Mobile_App_Galactio_SG_GPS_Navigation_link_should_be_available()
+    Then User click on Sign in link                                                                  # TestHomepage.user_click_on_Sign_in_link()
+    Then "Sign In" page should Open                                                                  # TestHomepage.page_should_Open(String)
+    Then Close all browser                                                                           # TestHomepage.close_all_browser()
 Feature: Verify all the Toll Gate Location Wise
 
   @Sanity

@@ -1,41 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="75.768344">
-<testcase classname="Verify All Live Traffic Camera In Location Wise" name="Verify the Total Location Of Singapore Having Live Cameras" time="13.0064">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="85.339228">
+<testcase classname="Verify All Live Traffic Camera In Location Wise" name="Verify the Total Location Of Singapore Having Live Cameras" time="12.967497">
 <system-out><![CDATA[Given Launch Browser And Application........................................passed
 When Navigate To Cameras Tab................................................passed
 Then Veriy That 62 location of Singapore Having Live Traffic Camera.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify All Live Traffic Camera In Location Wise" name="Verify All the Location name of singapore having Live Cameras" time="14.105616">
+<testcase classname="Verify All Live Traffic Camera In Location Wise" name="Verify All the Location name of singapore having Live Cameras" time="13.76113">
 <system-out><![CDATA[Then Verify All the Location name of singapore having Live Cameras..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify All Live Traffic Camera In Location Wise" name="Verify the Total Location Of Malaysia Having Live Traffic Cameras" time="0.65431">
+<testcase classname="Verify All Live Traffic Camera In Location Wise" name="Verify the Total Location Of Malaysia Having Live Traffic Cameras" time="0.607516">
 <system-out><![CDATA[Then Veriy That 25 location of Malaysia Having Live Traffic Camera..........passed
 Then Close all browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify All Homepage Basic Funcitonalities" name="Verify Applicaion Title" time="13.178655">
+<testcase classname="Verify All Homepage Basic Funcitonalities" name="Verify Applicaion Title" time="11.779745">
 <system-out><![CDATA[Given Launch Browser And Application........................................passed
 When User In Homepage.......................................................passed
 Then Validate Application Title.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify All Homepage Basic Funcitonalities" name="Verify Applicaion Logo" time="0.698387">
+<testcase classname="Verify All Homepage Basic Funcitonalities" name="Verify Applicaion Logo" time="0.631844">
 <system-out><![CDATA[Then Verify that Application Name Should Be Display.........................passed
 Then Close all browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify all the Toll Gate Location Wise" name="Verify the Total Location Of Singapore Having Toll Gate" time="12.801742">
+<testcase classname="Verify All Homepage Basic Funcitonalities" name="Verify that Given Link should be display in homepage" time="14.3543">
+<system-out><![CDATA[Given Launch Browser And Application........................................passed
+Then Verify that Sign in,Register,Mobile App,Galactio,SG GPS Navigation link should be available.passed
+Then User click on Sign in link.............................................passed
+Then "Sign In" page should Open.............................................passed
+Then Close all browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify all the Toll Gate Location Wise" name="Verify the Total Location Of Singapore Having Toll Gate" time="12.058736">
 <system-out><![CDATA[Given Launch Browser And Application........................................passed
 When Navigate To Tolls Tab..................................................passed
 Then Veriy That 77 location of Singapore Having Toll Gate...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify all the Toll Gate Location Wise" name="Verify All the Location name of singapore having Toll Gate" time="20.685421">
+<testcase classname="Verify all the Toll Gate Location Wise" name="Verify All the Location name of singapore having Toll Gate" time="18.578384">
 <system-out><![CDATA[Then Verify All the Location name of singapore having Toll Gate.............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify all the Toll Gate Location Wise" name="Verify the Total Location Of Malaysia Having Live Traffic Cameras" time="0.637813">
+<testcase classname="Verify all the Toll Gate Location Wise" name="Verify the Total Location Of Malaysia Having Live Traffic Cameras" time="0.600076">
 <system-out><![CDATA[Then Veriy That 25 location of Malaysia Having Live Traffic Camera..........passed
 Then Close all browser......................................................passed
 ]]></system-out>
