@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="BDD Test Suite">
-    <test name="MapsynqTest" preserve-order="true">
-        <classes>
-            <class name="com.mapsynq.runner"/>
-        </classes>
-    </test>
+<suite name = "Suite" parallel = "tests">
+	<test name = "ChromeTest">
+    <parameter name = "browser" value = "chrome" />
+      <classes>
+        <class name="com.mapsynq.runner"/>
+      </classes>  
+   </test>
+   <test name = "FirefoxTest">
+   <parameter name = "browser" value = "firefox" />
+      <classes>
+        <class name="com.mapsynq.runner"/>
+      </classes>
+   </test>
+   <test name = "IETest">
+   <parameter name = "browser" value = "ie" />
+      <classes>
+    <class name="com.mapsynq.runner"/>
+      </classes>
+   </test>   
 </suite>
