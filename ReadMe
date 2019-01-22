@@ -8,3 +8,21 @@ I have desinged the framework with BDD(Cucumber)with hybrid type.Basically depen
 3.Cucumber and TestNg for designing the framework.
 4.Git as Code Repository
 5.Extent Report and Cucumber report for Reporting.
+
+### Automation requirements
+- The automation script running UI within a browser and its working in Winodw,MAC and Linux
+- Script generated clean report file and log
+- Implimenting selenium GRID for testing Cross browser
+
+
+### Functional requirements
+- Tests are running from the command line 
+- Tests are run against a configurable host, use http://www.mapsynq.com as the default
+- Tests can be configured to run on a various browser and OS combinations against a testing service
+- Testing service credentials and all configuration settings are passed as environment variables(Implimenting in config.propertis file)
+- Tests are run in parallel (impplimenting TestNg.xml)
+- Tests run headlessly (Implimenting in BrowserConfiguration Package)
+- Tests capture screenshots of failures (Test Capture failure screenshot)
+
+Feedback :-
+Require some more time for implimenting more complext features .
